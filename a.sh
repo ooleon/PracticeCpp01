@@ -1,3 +1,3 @@
-rm test
-g++ test.c++ -o test
-./test
+rm ./bin/test
+g++ test.c++ -o ./bin/test
+./bin/test
