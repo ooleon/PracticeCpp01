@@ -20,7 +20,7 @@ int main()
     } while (i <= 5);
     std::cout << "\n";
 
-    std::cout << "Welcome exkalybur Yes!  \n";
+    std::cout << "Welcome ooleon Yes!  \n";
     std::cout << "\n";
     return 0;
 }
