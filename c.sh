@@ -1,3 +1,9 @@
-rm ./bin/cpp-input-and-output
-g++ cpp-input-and-output.cpp -o ./bin/cpp-input-and-output
-./bin/cpp-input-and-output
+app=tetrisMain.cpp
+export app
+echo $app
+if [ -f "app" ]; then
+    rm ./bin/app
+fi
+
+g++ $app -o ./bin/app
+./bin/app
